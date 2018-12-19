@@ -7,10 +7,12 @@ Authors@R:
            role = c("aut", "cre"),
            email = "drkevin2022@gmail.com")
 Description: This data package contains Korean Baseball news information.
-License: What license it uses
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 Imports: 
     tibble
+URL: https://github.com/MrKevinNa/KoreanBaseballNews
+BugReports: https://github.com/MrKevinNa/KoreanBaseballNews/issues

@@ -1,0 +1,16 @@
+Package: KoreanBaseballNews
+Title: To provide the Korean Baseball news inforamtion
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "DrKevin",
+           family = "Na",
+           role = c("aut", "cre"),
+           email = "drkevin2022@gmail.com")
+Description: This data package contains Korean Baseball news information.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    tibble

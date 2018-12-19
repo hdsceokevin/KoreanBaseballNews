@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# KoreanBaseballNews
+
+The goal of KoreanBaseballNews is to provide the Korean Baseball news information. 
+
+## Installation
+
+You can install the devloping version of KoreanBaseballNews from [github](https://github.com/MrKevinNa/KoreanBaseballNews) with:
+
+``` r
+# install.packages('remotes')
+remotes::install_github("MrKevinNa/KoreanBaseballNews")
+```
+
+## Example 
+
+```{r eval=FALSE}
+# read data year 2018
+KoreanBaseballNews2018
+
+# check the structure of the data
+str(object = KoreanBaseballNews2018)
+```

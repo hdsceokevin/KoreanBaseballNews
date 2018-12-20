@@ -27,10 +27,13 @@ remotes::install_github("MrKevinNa/KoreanBaseballNews")
 
 ## Example 
 
-```{r eval=FALSE}
-# read data year 2018
-KoreanBaseballNews2018
+```{r}
+# load package
+library(KoreanBaseballNews)
 
-# check the structure of the data
-str(object = KoreanBaseballNews2018)
+# read data year 2018 and assign it to KBBNews2018
+KBBNews2018 <- KoreanBaseballNews2018
+
+# check the structure of the object
+str(object = KBBNews2018)
 ```
